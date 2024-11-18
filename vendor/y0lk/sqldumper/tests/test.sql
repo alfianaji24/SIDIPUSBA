@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS `table1`;
+DROP TABLE IF EXISTS `table2`;
+
+CREATE TABLE `table1` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `table1` (`id`, `name`) VALUES
+(1, 'Test'),
+(2, 'Test2');
+
+ALTER TABLE `table1`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `table1`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+
+CREATE TABLE `table2` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;

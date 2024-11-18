@@ -1,0 +1,577 @@
+ERROR - 2023-12-02 01:19:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesma_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesma_alfian...', '#Balaraja123', 'puskesma_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 01:19:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 02:27:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesma_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesma_alfian...', '#Balaraja123', 'puskesma_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 02:27:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 08:12:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesma_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesma_alfian...', '#Balaraja123', 'puskesma_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 08:12:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 10:14:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesma_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesma_alfian...', '#Balaraja123', 'puskesma_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 10:14:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:44:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesma_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesma_alfian...', '#Balaraja123', 'puskesma_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:44:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:46:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:46:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:46:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_disfo', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:46:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:51:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:51:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:51:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:51:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:52:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:52:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:54:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:54:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'puskesm6_dispa'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:54:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/disfo/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/disfo/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/disfo/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/disfo/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/disfo/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/disfo/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:54:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'puskesm6_dispa'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:57:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:57:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'puskesm6_dispa'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:58:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:58:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'puskesm6_dispa'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-02 20:58:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'puskesm6_alfianaji24'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'puskesm6_dispa' in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-02 20:58:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'puskesm6_dispa'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-02 20:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-02 21:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-02 21:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-02 21:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-02 21:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-02 21:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-02 21:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,30 @@
+CRITICAL - 2024-11-16 23:39:14 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(81): CodeIgniter\Database\Database->load()
+ 3 APPPATH/Libraries/Settings.php(11): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Modules/Display/Controllers/Display.php(19): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Modules\Display\Controllers\Display->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 23:39:18 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(81): CodeIgniter\Database\Database->load()
+ 3 APPPATH/Libraries/Settings.php(11): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Modules/Display/Controllers/Display.php(19): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Modules\Display\Controllers\Display->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-16 23:39:23 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+in SYSTEMPATH/Database/Database.php on line 137.
+ 1 SYSTEMPATH/Database/Database.php(55): CodeIgniter\Database\Database->initDriver()
+ 2 SYSTEMPATH/Database/Config.php(81): CodeIgniter\Database\Database->load()
+ 3 APPPATH/Libraries/Settings.php(11): CodeIgniter\Database\Config::connect()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

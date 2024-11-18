@@ -1,0 +1,380 @@
+ERROR - 2024-01-30 12:06:27 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:06:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:06:28 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:06:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:06:33 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:06:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:06:39 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:06:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:06:46 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:06:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:07:45 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:07:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:10:11 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:10:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:16:50 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:16:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:18:52 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:18:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:32:21 --> Error connecting to the database: mysqli_sql_exception: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:174
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php(174): mysqli->real_connect('localhost', 'puskesm6_alfian...', '#Balaraja123', 'puskesm6_dispa', 3306, '', 0)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#8 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111) in /home/puskesm6/dashboard_app/dispa/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/puskesm6/dashboard_app/dispa/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/puskesm6/dashboard_app/dispa/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/puskesm6/dashboard_app/dispa/app/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/puskesm6/dashboard_app/dispa/app/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+#5 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(904): App\Controllers\Home->__construct()
+#6 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+#7 /home/puskesm6/dashboard_app/dispa/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/puskesm6/dispa.puskesmasbalaraja.com/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-30 12:32:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Can't connect to local server through socket '/var/lib/mysql/mysql.sock' (111)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 3 APPPATH/Libraries/Settings.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(14): App\Libraries\Settings->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

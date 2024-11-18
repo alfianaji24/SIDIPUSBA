@@ -1,0 +1,32 @@
+{
+    "name": "y0lk/sqldumper",
+    "description": "SQL dump utility",
+    "type": "library",
+    "license": "MIT",
+	"authors": [
+    	{
+      		"name": "Y0lk",
+      		"email": "gabriel@inkrebit.com",
+      		"homepage": "https://github.com/Y0lk"
+    	}
+    ],
+	"keywords": [
+		"dump",
+		"mysql-dump",
+		"mysql",
+		"sql"
+	],
+	"require": {
+		"ext-PDO":"*",
+		"ext-pdo_mysql":"*",
+		"php": ">=7.2.0"
+	},
+	"require-dev": {
+        "phpunit/phpunit": "^8.0"
+  	},
+	"autoload": {
+	    "psr-4": {
+	      "Y0lk\\SQLDumper\\": "src/"
+	    }
+	}
+}
